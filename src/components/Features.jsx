@@ -5,9 +5,9 @@ export default function Features() {
     <div className="containter mx-3 my-2">
       <div className="row">
         {/* Card #1 */}
-        <div className="col-6 mb-4">
+        <div className="col-6 mb-5">
           <div className="col d-flex flex-column align-items-center">
-            <i class="bi bi-bootstrap-fill display-4 text-indigo-400"></i>
+            <i class="bi bi-bootstrap-fill display-3 text-indigo-400"></i>
             <p className="d-flex justify-content-center h2 fw-bolder h-auto my-3">
               Featured title
             </p>
@@ -18,9 +18,9 @@ export default function Features() {
         </div>
 
         {/* Card #2 */}
-        <div className="col-6 mb-4">
+        <div className="col-6 mb-5">
           <div className="col d-flex flex-column align-items-center">
-            <i class="bi bi-cpu-fill display-4 text-indigo-400"></i>
+            <i class="bi bi-cpu-fill display-3 text-indigo-400"></i>
             <p className="d-flex justify-content-center h2 fw-bolder h-auto my-3">
               Featured title
             </p>
@@ -31,9 +31,9 @@ export default function Features() {
         </div>
 
         {/* Card #3 */}
-        <div className="col-6 mb-4">
+        <div className="col-6 mb-5">
           <div className="col d-flex flex-column align-items-center">
-            <i class="bi bi-calendar3 display-4 text-indigo-400"></i>
+            <i class="bi bi-calendar3 display-3 text-indigo-400"></i>
             <p className="d-flex justify-content-center h2 fw-bolder h-auto my-3">
               Featured title
             </p>
@@ -44,9 +44,9 @@ export default function Features() {
         </div>
 
         {/* Card #4 */}
-        <div className="col-6 mb-4">
+        <div className="col-6 mb-5">
           <div className="col d-flex flex-column align-items-center">
-            <i class="bi bi-house-door display-4 text-indigo-400"></i>
+            <i class="bi bi-house-door display-3 text-indigo-400"></i>
             <p className="d-flex justify-content-center h2 fw-bolder h-auto my-3">
               Featured title
             </p>

@@ -12,6 +12,7 @@ A modern browser. May fail to load correctly if used in unsupported/old web brow
 
 - HTML5
 - CSS
+- [SASS](https://sass-lang.com/)
 - [Bootstrap 5](https://getbootstrap.com/)
 - JavaScript
 - [React](https://reactjs.org/) (by Facebook)

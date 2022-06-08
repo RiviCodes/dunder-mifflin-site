@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card() {
   return (
-    <div className="container-fluid d-flex justify-content-center py-4 border border-2 rounded bg-indigo-100">
+    <div className="container-fluid d-flex justify-content-center py-4 bg-indigo-100">
       <div className="row">
         <div className="col-6 d-flex align-items-center justify-content-center">
           <img

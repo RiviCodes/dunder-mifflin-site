@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="container py-5">
+    <div className="container pt-5 pb-2">
       <div className="row">
         {/* LEFT COLUMN */}
         <div className="col-12 col-md-6">
@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
 
           {/* Primary paragraph */}
-          <div className="col-12 mb-4">
+          <div className="col mb-4">
             <p className="h1 text-start h-auto w-75">
               <strong>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -26,10 +26,19 @@ export default function Hero() {
 
           {/* Secondary paragraph */}
           <div className="col">
-            <p className="h4 text-start h-auto w-75 text-muted">
+            <p className="h4 text-start h-auto w-75 text-muted fw-light">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
               adipisci perferendis ad explicabo, nisi id sunt nam.
             </p>
+          </div>
+
+          {/* Button */}
+          <div className="col-12 my-5">
+            <a href="">
+              <button className="btn btn-lg bg-indigo-500 text-white">
+                <strong>ORDER TODAY!</strong>
+              </button>
+            </a>
           </div>
         </div>
 
@@ -44,6 +53,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      {/* Divider */}
+      <hr className="border-dark"></hr>
     </div>
   );
 }

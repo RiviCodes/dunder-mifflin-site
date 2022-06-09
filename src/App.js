@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Quote from "./components/Quote";
 import Grid from "./components/Grid";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <Quote />
       <Grid />
+      <Footer />
     </div>
   );
 }

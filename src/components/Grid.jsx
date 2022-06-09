@@ -16,7 +16,7 @@ export default function Grid() {
                     <img
                       src="https://bolavip.com/__export/1640142627460/sites/bolavip/img/2021/12/22/johnkrasinski_crop1640142301901.jpg_1159711837.jpg"
                       alt=""
-                      className="img-fluid w-25"
+                      className="img-fluid w-25 rounded-circle"
                     />
                     <div>
                       <h5 class="card-title">Card title</h5>

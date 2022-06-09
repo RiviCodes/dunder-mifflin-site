@@ -6,7 +6,7 @@ export default function Quote() {
       <div className="row">
         <div className="col-6 d-flex align-items-center justify-content-center">
           <img
-            src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/cc/cc43056062c943d77081d6369100d0c0caf5e24a_full.jpg"
+            src="images/michael.jpg"
             alt=""
             className="img-thumbnail w-75 border-5 border-indigo-500 rounded-circle"
           />

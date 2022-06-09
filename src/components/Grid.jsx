@@ -132,8 +132,7 @@ export default function Grid() {
                   <p class="card-text h6 h-100 w-75 pb-1 text-light bg-indigo-600">
                     FALSE! Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Veritatis eligendi incidunt sequi natus? Officia
-                    distinctio a tenetur quos itaque atque, sed quibusdam sequi
-                    quod dolorem ad, quam unde quia dolor?
+                    distinctio a tenetur quos itaque atque.
                   </p>
                   <figcaption class="blockquote-footer text-light pt-2">
                     <cite title="Source Title">Dwight Schrute</cite>

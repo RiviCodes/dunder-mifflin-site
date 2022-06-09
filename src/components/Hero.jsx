@@ -9,7 +9,7 @@ export default function Hero() {
           {/* Display image ONLY when breakpoint is UNDER MD */}
           <div className="col-12 col-md-6 d-md-none mb-5">
             <img
-              src="https://wallpapers.com/images/high/the-office-dunder-mifflin-boss-87ucljukpbj1p3iw.jpg"
+              src="images/dunder-mifflin.jpg"
               alt=""
               className="img-fluid h-auto rounded shadow-lg mb-1"
             />

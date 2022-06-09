@@ -5,10 +5,10 @@ export default function Grid() {
     <div className="container d-flex align-items-center justify-content-center my-4">
       <div className="row">
         {/* LEFT COLUMN */}
-        <div className="col-12 col-lg-9">
+        <div className="col-12 col-lg-8">
           {/* NESTED TOP ROW */}
           <div className="row">
-            <div className="col-12 col-lg-8 p-2">
+            <div className="col-12 col-lg-7 p-2">
               {/* Use 100% of the height in each card */}
               <div class="card h-100 ps-3 bg-indigo-400">
                 {/* SINGLE CARD'S CONTENT */}
@@ -35,19 +35,25 @@ export default function Grid() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-4 p-2">
-              <div class="card h-100">
-                <div class="card-body">
-                  <div className="d-flex align-items-center justify-content-around">
-                    <img src="" alt="" className="rounded-circle" />
+
+            <div className="col-12 col-lg-5 p-2">
+              <div class="card h-100 ps-3 bg-indigo-500">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                  <div className="d-flex align-items-center">
+                    <img
+                      src="images/pam.jpg"
+                      alt=""
+                      className="img-thumbnail rounded-circle"
+                      height="auto"
+                      width="100"
+                    />
                     <div>
-                      <p class="card-text h6 h-100 w-75 pb-1">
+                      <p class="card-text h6 h-100 w-75 pb-1 text-light bg-indigo-500">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Vitae, unde eligendi consequatur similique
-                        repudiandae neque!
+                        elit.
                       </p>
-                      <figcaption class="blockquote-footer text-dark pt-2">
-                        <cite title="Source Title">Jim Harper</cite>
+                      <figcaption class="blockquote-footer text-light pt-2">
+                        <cite title="Source Title">Pam Morgan</cite>
                       </figcaption>
                     </div>
                   </div>
@@ -57,27 +63,85 @@ export default function Grid() {
           </div>
           {/* NESTED BOTTOM ROW */}
           <div className="row">
-            <div className="col-12 col-lg-4 bg-warning">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Dignissimos ea tempora, maiores fugiat maxime aliquam vel
-              exercitationem aspernatur labore, voluptates magnam illum iusto
-              ex. Optio deleniti nisi ipsum doloremque voluptatibus.
+            <div className="col-12 col-lg-5 p-2">
+              <div class="card h-100 ps-3 bg-indigo-500">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                  <div className="d-flex align-items-center">
+                    <img
+                      src="images/erin.jpg"
+                      alt=""
+                      className="img-thumbnail rounded-circle"
+                      height="auto"
+                      width="100"
+                    />
+                    <div>
+                      <p class="card-text h6 h-100 w-75 pb-1 text-light bg-indigo-500">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                      <figcaption class="blockquote-footer text-light pt-2">
+                        <cite title="Source Title">Erin Hannon</cite>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-12 col-lg-8 bg-danger">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Dignissimos ea tempora, maiores fugiat maxime aliquam vel
-              exercitationem aspernatur labore, voluptates magnam illum iusto
-              ex. Optio deleniti nisi ipsum doloremque voluptatibus.
+
+            <div className="col-12 col-lg-7 p-2">
+              <div class="card h-100 ps-3 bg-indigo-400">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                  <div className="d-flex align-items-center">
+                    <img
+                      src="images/andy.jpg"
+                      alt=""
+                      className="img-thumbnail rounded-circle"
+                      height="auto"
+                      width="100"
+                    />
+                    <div>
+                      <p class="card-text h6 h-100 w-75 pb-1 text-light bg-indigo-400">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Vitae, unde eligendi consequatur similique
+                        repudiandae neque!
+                      </p>
+                      <figcaption class="blockquote-footer text-light pt-2">
+                        <cite title="Source Title">Andrew B. Bernard</cite>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         {/* RIGHT COLUMN */}
-        <div className="col-12 col-lg-3 bg-secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolorem
-          velit tempora architecto amet qui hic suscipit necessitatibus placeat
-          ex laudantium sed, consequuntur molestias asperiores ipsam aliquam.
-          Praesentium, velit sint.
+        <div className="col-12 col-lg-4 p-2">
+          <div class="card h-100 ps-3 bg-indigo-600">
+            <div class="card-body d-flex align-items-center justify-content-center">
+              <div className="d-flex align-items-center">
+                <img
+                  src="images/dwight.jpg"
+                  alt=""
+                  className="img-thumbnail rounded-circle"
+                  height="auto"
+                  width="100"
+                />
+                <div>
+                  <p class="card-text h6 h-100 w-75 pb-1 text-light bg-indigo-600">
+                    FALSE! Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Veritatis eligendi incidunt sequi natus? Officia
+                    distinctio a tenetur quos itaque atque, sed quibusdam sequi
+                    quod dolorem ad, quam unde quia dolor?
+                  </p>
+                  <figcaption class="blockquote-footer text-light pt-2">
+                    <cite title="Source Title">Dwight Schrute</cite>
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

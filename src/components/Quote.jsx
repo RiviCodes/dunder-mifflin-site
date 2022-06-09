@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card() {
+export default function Quote() {
   return (
     <div className="container-fluid d-flex justify-content-center py-4 bg-indigo-100">
       <div className="row">

@@ -64,22 +64,22 @@ export default function Grid() {
           {/* NESTED BOTTOM ROW */}
           <div className="row">
             <div className="col-12 col-lg-5 p-2">
-              <div class="card h-100 ps-3 bg-indigo-500">
+              <div class="card h-100 ps-3 bg-light border-indigo-500">
                 <div class="card-body d-flex align-items-center justify-content-center">
                   <div className="d-flex align-items-center">
                     <img
                       src="images/erin.jpg"
                       alt=""
-                      className="img-thumbnail rounded-circle"
+                      className="img-thumbnail border-indigo-500 rounded-circle"
                       height="auto"
                       width="100"
                     />
                     <div>
-                      <p class="card-text h6 h-100 w-75 pb-1 text-light bg-indigo-500">
+                      <p class="card-text h6 h-100 w-75 pb-1 text-indigo-500 bg-light">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit.
                       </p>
-                      <figcaption class="blockquote-footer text-light pt-2">
+                      <figcaption class="blockquote-footer text-indigo-500 pt-2">
                         <cite title="Source Title">Erin Hannon</cite>
                       </figcaption>
                     </div>

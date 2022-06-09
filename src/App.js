@@ -2,7 +2,7 @@ import "./App.scss";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import Card from "./components/Card";
+import Quote from "./components/Quote";
 import Grid from "./components/Grid";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      <Card />
+      <Quote />
       <Grid />
     </div>
   );

@@ -9,7 +9,13 @@ export default function Footer() {
           {/* BRAND LOGO */}
           <div className="col-3 col-md-3 d-flex justify-content-center">
             <a href="" className="h2">
-              <i class="bi bi-bootstrap-fill text-indigo-700"></i>
+              {/* <i class="bi bi-bootstrap-fill text-indigo-700"></i> */}
+              <img
+                src="https://blog.getbootstrap.com/assets/brand/bootstrap-logo-shadow.png"
+                alt=""
+                className="img-fluid"
+                width="50"
+              />
             </a>
           </div>
           {/* COMPANY */}

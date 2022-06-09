@@ -2,38 +2,57 @@ import React from "react";
 
 export default function Grid() {
   return (
-    <div className="container d-flex align-items-center justify-content-center vh-100">
+    <div className="container d-flex align-items-center justify-content-center my-4">
       <div className="row">
         {/* LEFT COLUMN */}
         <div className="col-12 col-lg-9">
           {/* NESTED TOP ROW */}
           <div className="row">
-            <div className="col-12 col-lg-8 bg-primary">
-              <div class="card">
+            <div className="col-12 col-lg-8 p-2">
+              {/* Use 100% of the height in each card */}
+              <div class="card h-100 ps-3 bg-indigo-400">
                 {/* SINGLE CARD'S CONTENT */}
-                <div class="card-body">
-                  <div className="d-flex">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                  <div className="d-flex align-items-center">
                     <img
-                      src="https://bolavip.com/__export/1640142627460/sites/bolavip/img/2021/12/22/johnkrasinski_crop1640142301901.jpg_1159711837.jpg"
+                      src="images/jim.jpg"
                       alt=""
-                      className="img-fluid w-25 rounded-circle"
+                      className="img-thumbnail rounded-circle"
+                      height="auto"
+                      width="100"
                     />
                     <div>
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text h6">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-text h6 h-100 w-75 pb-1 text-light bg-indigo-400">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Vitae, unde eligendi consequatur similique
+                        repudiandae neque!
                       </p>
+                      <figcaption class="blockquote-footer text-light pt-2">
+                        <cite title="Source Title">Jim Harper</cite>
+                      </figcaption>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-4 bg-success">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Dignissimos ea tempora, maiores fugiat maxime aliquam vel
-              exercitationem aspernatur labore, voluptates magnam illum iusto
-              ex. Optio deleniti nisi ipsum doloremque voluptatibus.
+            <div className="col-12 col-lg-4 p-2">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div className="d-flex align-items-center justify-content-around">
+                    <img src="" alt="" className="rounded-circle" />
+                    <div>
+                      <p class="card-text h6 h-100 w-75 pb-1">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Vitae, unde eligendi consequatur similique
+                        repudiandae neque!
+                      </p>
+                      <figcaption class="blockquote-footer text-dark pt-2">
+                        <cite title="Source Title">Jim Harper</cite>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* NESTED BOTTOM ROW */}

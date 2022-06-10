@@ -11,7 +11,7 @@ export default function Hero() {
             <img
               src="images/dunder-mifflin.jpg"
               alt=""
-              className="img-fluid h-auto rounded-5 shadow-lg mb-1"
+              className="img-fluid img-thumbnail border border-2 border-indigo-500 h-auto rounded-5 shadow-lg mb-1"
             />
           </div>
 
@@ -48,7 +48,7 @@ export default function Hero() {
             <img
               src="https://wallpapers.com/images/high/the-office-dunder-mifflin-boss-87ucljukpbj1p3iw.jpg"
               alt=""
-              className="img-fluid h-auto rounded-5 shadow-lg"
+              className="img-fluid img-thumbnail border border-3 border-indigo-500 h-auto rounded-5 shadow-lg"
             />
           </div>
         </div>

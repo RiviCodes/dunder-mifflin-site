@@ -10,7 +10,7 @@ export default function Navbar() {
         </span>
         {/* Toggler Button */}
         <button
-          class="navbar-toggler ms-auto"
+          class="navbar-toggler ms-auto border-indigo-500"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -21,19 +21,23 @@ export default function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto  mb-lg-0">
+          <ul class="navbar-nav me-auto mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">
+              <a
+                class="nav-link active fw-semibold text-indigo-400"
+                aria-current="page"
+                href="#home"
+              >
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">
+              <a class="nav-link fw-semibold text-indigo-400" href="#features">
                 Features
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#our-team">
+              <a class="nav-link fw-semibold text-indigo-400" href="#our-team">
                 Our Team
               </a>
             </li>

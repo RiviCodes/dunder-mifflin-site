@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Grid() {
   return (
-    <div className="container d-flex align-items-center justify-content-center my-4">
+    <div
+      id="our-team"
+      className="container d-flex align-items-center justify-content-center my-4"
+    >
       <div className="row">
         {/* LEFT COLUMN */}
         <div className="col-12 col-lg-8">

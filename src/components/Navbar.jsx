@@ -33,7 +33,9 @@ export default function Navbar() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#our-team">
+                Our Team
+              </a>
             </li>
           </ul>
         </div>

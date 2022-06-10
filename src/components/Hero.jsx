@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="container mt-5 pt-5 pb-3">
+    <div id="home" className="container mt-5 pt-5 pb-3">
       <div className="row">
         {/* LEFT COLUMN */}
         <div className="col-12 col-md-6">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Features() {
   return (
-    <div className="containter mx-3 mt-4">
+    <div id="features" className="containter mx-3 mt-4">
       <div className="row">
         {/* Card #1 */}
         <div className="col-6 col-md-3 mb-5">

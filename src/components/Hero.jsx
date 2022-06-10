@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
 
         {/* RIGHT COLUMN, display ONLY when breakpoint is OVER MD */}
-        <div className="col-md-6 d-none d-md-block mt-5 pt-4">
+        <div className="col-md-6 d-none d-md-block mt-5 pt-4 align-self-center">
           <div className="col">
             <img
               src="https://wallpapers.com/images/high/the-office-dunder-mifflin-boss-87ucljukpbj1p3iw.jpg"
